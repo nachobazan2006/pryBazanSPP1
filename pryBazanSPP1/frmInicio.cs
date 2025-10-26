@@ -10,6 +10,7 @@ namespace pryBazanSPP1
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             new frmInicioSesion().ShowDialog();
+            this.Hide();
         }
     }
 }
