@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBienvenida));
             lblBienvenidaa = new Label();
             SuspendLayout();
             // 
@@ -49,6 +50,7 @@
             BackColor = Color.Silver;
             ClientSize = new Size(956, 525);
             Controls.Add(lblBienvenidaa);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmBienvenida";
             Text = "Bienvenida";
             ResumeLayout(false);

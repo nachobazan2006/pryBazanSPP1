@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicioSesion));
             gbInicioSesion = new GroupBox();
             btnAceptar = new Button();
             cmbModulo = new ComboBox();
@@ -126,6 +127,7 @@
             BackColor = Color.Silver;
             ClientSize = new Size(921, 551);
             Controls.Add(gbInicioSesion);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmInicioSesion";
             Text = "Inicio de sesion";
             Load += frmInicioSesion_Load;

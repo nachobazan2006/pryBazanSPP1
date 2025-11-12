@@ -73,6 +73,7 @@
             Controls.Add(btnIngresar);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmInicio";
             Text = "Inicio";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
